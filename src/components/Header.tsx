@@ -6,7 +6,7 @@ const Header = () => {
   const curpath=Location.pathname === '/add-item'; 
     return (
       <header className="flex items-center justify-between bg-white px-8 py-4 shadow-md">
-        {/* Logo */}
+        
         <div className="flex items-center">
           <img
             src="https://images.unsplash.com/photo-1542176281-363d7e8c1c04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG91dGRvb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" // Replace with your logo's file path
@@ -16,7 +16,7 @@ const Header = () => {
           <h1 className="text-lg font-bold">NXT Wave</h1>
         </div>
   
-        {/* Action Buttons */}
+        
         <div className="flex items-center space-x-4">
         <Link to="/add-item">
           {!curpath && (<button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">

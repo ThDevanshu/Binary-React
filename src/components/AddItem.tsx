@@ -119,8 +119,6 @@ const AddItem = () => {
             </div>
           </form>
         </div>
-
-        {/* Background Section */}
         <div
           className="w-full lg:w-1/2 bg-cover bg-center"
           style={{

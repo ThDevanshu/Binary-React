@@ -26,7 +26,7 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100">
       <Header />
       <main className="p-6 mx-40">
-        {/* Filter Buttons */}
+        
         <div className="border rounded-lg justify-center mx-auto my-4 flex w-6/12 h-10">
           <button
             className={`w-full border-2 hover:bg-blue-500 ${
@@ -53,8 +53,7 @@ const Home = () => {
             Users
           </button>
         </div>
-
-        {/* Search Bar */}
+        
         <div className="flex justify-between items-center m-6">
           <input
             type="text"
@@ -65,7 +64,6 @@ const Home = () => {
           />
         </div>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-14 mt-8 ">
           {filteredResources.map((resource) => (
             <ResourceCard key={resource.id} resource={resource} />
